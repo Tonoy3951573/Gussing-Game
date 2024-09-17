@@ -1,0 +1,222 @@
+
+.main-conteniar{
+
+    
+    margin: auto;
+    padding: 10px;
+    box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+    border-radius: 10px;
+    width: 630px;
+    
+}
+
+body{
+    padding: 20px;
+}
+
+.game-name{
+    text-align: center;
+    font-family: "Playwrite CU", cursive;
+    font-size: large;
+    color: dodgerblue;
+}
+
+.lower{
+
+    height: 250px;
+    display: flex;
+    
+    }
+
+.left{
+    flex: 50%;
+    background:rgb(11, 208, 208);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.right {
+    flex: 50%;
+    background: cyan;
+    border-radius: 5px;
+    padding: 20px;
+    color: darkslategrey;
+    font-family: "Exo 2", sans-serif ;
+
+}
+
+.bottom{
+    position: absolute;
+    top: 290px;
+    display: flex;
+    width: 17.3em;
+}
+
+.bottom-right{
+    margin-left: auto;
+}
+
+
+#textbox{
+    border: 0px ;
+    border-bottom: 2px solid rgb(146, 137, 137);
+    background: transparent;
+    height: 25px;
+    width: 190px;
+    outline: none;
+    text-align: center;
+    font-family: "Exo 2", sans-serif ;
+    color: darkslategrey;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+button{
+    margin: 7px;
+    padding: 8px;
+    width: auto;
+    border-radius: 10px;
+    border: none;
+    color: #3a7d94;
+    font-family: "Exo 2", sans-serif ;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+    cursor: pointer;
+}
+
+#btn1{
+
+    margin-top: 20px;
+
+}
+
+@media (max-width: 710px) {
+    
+    .main-conteniar{
+        margin: 0;
+        width: auto;
+    }
+}
+
+@media (max-width : 576px) {
+
+    body{
+
+        padding: 2px;
+    }
+
+    .main-conteniar{
+
+        height: 508px;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+       
+    
+        
+    }
+
+
+    .lower{
+
+        display: block;
+
+    }
+
+    .right{
+        display: block;
+        min-height: 256px;
+        box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+        box-sizing:border-box;
+    }
+
+    .left{
+        height: 90;
+        margin-bottom: 15px;
+        box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+    }
+
+    .bottom{
+
+        position: absolute;
+        top: 455;
+
+    }
+
+    #btn1{
+        position: absolute;
+        left: 44%;
+    }
+
+    
+}
+
+@media (max-width : 576px) {
+
+    body{
+
+        padding: 2px;
+    }
+
+    .main-conteniar{
+
+        height: 508px;
+        overflow: hidden;
+        width: 100%;
+        margin: 0;
+        box-sizing: border-box;
+       
+    
+        
+    }
+
+
+    .lower{
+
+        display: block;
+
+    }
+
+    .right{
+        display: block;
+        min-height: 256px;
+        box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+        box-sizing:border-box;
+    }
+
+    .left{
+        height: 90;
+        margin-bottom: 15px;
+        box-shadow: 2px 3px 7px 3px rgb(0, 0,0,0.13);
+    }
+
+    .bottom{
+
+        position: absolute;
+        top: 455;
+
+    }
+
+    .bottom-right{
+
+        width: auto;
+        margin-left: 0px;
+
+    }
+
+    #btn1{
+        position: absolute;
+        left: 44%;
+    }
+    
+}
+
+
+
+
