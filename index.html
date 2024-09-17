@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Gussing Game</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div class="main-conteniar">
+            <div class="game-name"><h4>Gussing Game</h4></div>
+            <div class="lower">
+                <div class="left">
+                    <input type="text" id="textbox" placeholder="Enter value here"><br>
+                    <button id="btn1" onclick="getValue()">Enter</button> <br>
+                    <div class="bottom">
+                    <button id="btn2" onclick="clearall()">Play again</button> 
+                    <div class="bottom-right">
+                        <button id="btn3" hidden >Hint</button> 
+                        <button id="btn4" onclick="reveal()" hidden >Reveal</button> 
+                    </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="hidden_number"></div>
+                    <div class="result"></div>
+                    <div class="hint"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js">
+        </script>
+    </body>
+</html>
